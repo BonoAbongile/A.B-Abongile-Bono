@@ -392,10 +392,16 @@ body {
    border-radius: 30px;
 }
 
+.fourth-paralex .form-bg .form input:focus::placeholder {
+    transform: translateY(40px);
+    font-size: 15px;
+}
+
 .fourth-paralex .form-bg .form input::placeholder {
     color: white;
-    text-align: center;
+/*     text-align: center; */
     font-weight: 500;
+    transition: all .5s;
 }
 
 .fourth-paralex .form-bg .form button {
