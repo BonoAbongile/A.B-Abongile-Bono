@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #f1e310;
-    /* background-image: radial-gradient(circle, rgba(49, 56, 64, 0.212), black), url('images/header.png'); */
+    /* background-image: radial-gradient(circle, rgba(49, 56, 64, 0.212), black), url('header.png'); */
     background-attachment: fixed;
     position: relative;
 }
@@ -158,7 +158,7 @@ body {
 .sec-paralex {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right,#fafaface, #fafafaaf) ,url("images/bulb.png");
+    background-image: linear-gradient(to right,#fafaface, #fafafaaf) ,url("bulb.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -180,7 +180,7 @@ body {
 }
 
 .block-container .left {
-    background-image: url('images/sunset.png');
+    background-image: url('sunset.png');
     background-size: cover;
 }
 
@@ -189,12 +189,12 @@ body {
     font-weight: 600;
 }
 .block-container .center {
-    background-image: url('images/firstMe.jpg');
+    background-image: url('firstMe.jpg');
     background-size: cover;
 }
 
 .block-container .right {
-    background-image: url('images/door.png');
+    background-image: url('door.png');
     background-size: cover;
 }
 
@@ -260,7 +260,7 @@ body {
 .third-paralex {
     width: 100%;
     height: 100vh;
-    background-image: url("images/ele.png");
+    background-image: url("ele.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -294,19 +294,19 @@ body {
   }
 
   .body-parent .left2 {
-    background-image: url('images/phone.png');
+    background-image: url('phone.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .body-parent .center2 {
-    background-image: url('images/whitecode.png');
+    background-image: url('whitecode.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
   .body-parent .right2 {
-    background-image: url('images/coolcode.png');
+    background-image: url('coolcode.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -338,7 +338,7 @@ body {
 .fourth-paralex {
     width: 100%;
     height: 100vh;
-    background-image: url("images/head.png");
+    background-image: url("head.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
