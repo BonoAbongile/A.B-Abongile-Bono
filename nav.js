@@ -19,14 +19,14 @@ form.addEventListener('submit', function(e){
 
     var myArray = []
 
-    if(localStorage.getItem('tasks') != null){
+    if(localStorage.getItem('myWebsiteUsers') != null){
         myArray = JSON.parse(localStorage.getItem('tasks'))
         myArray.push(myObject)
-        localStorage.setItem('tasks', JSON.stringify(myArray))
+        localStorage.setItem('myWebsiteUsers', JSON.stringify(myArray))
     }
 
     else{
         myArray.push(myObject)
-        localStorage.setItem('tasks', JSON.stringify(myArray))
+        localStorage.setItem('myWebsiteUsers', JSON.stringify(myArray))
     }
 })
