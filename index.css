@@ -1,0 +1,503 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+}
+
+/* STYLT FOR FIRTS PARALLEX SECTION STARTS HERE  */
+
+.first-paralex {
+    width: 100%;
+    height: 100vh;
+    background-color: #f1e310;
+    /* background-image: radial-gradient(circle, rgba(49, 56, 64, 0.212), black), url('images/header.png'); */
+    background-attachment: fixed;
+    position: relative;
+}
+
+.first-paralex .for-icons {
+    position: fixed;
+    top: 29%;
+    right: 10px;
+    z-index: 10;
+    height: 318px;
+    padding-top: 0px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.first-paralex .for-icons a {
+    color: white;
+    display: block;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.first-paralex .for-icons a:nth-child(1):hover {
+    background-color: #25D366;
+}
+.first-paralex .for-icons a:nth-child(2):hover {
+    background-color: #1da1f2;
+}
+.first-paralex .for-icons a:nth-child(3):hover {
+    background-color: #3b5998;
+}
+.first-paralex .for-icons a:nth-child(4):hover {
+    background-color: #3f729b;
+}
+.first-paralex .for-icons a:nth-child(5):hover {
+    background-color: #0e76a8;
+}
+
+.body-nav {
+    padding: 0;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2)
+}
+
+.navigation input:checked ~  .menu {
+    width: 400px;
+}
+
+.menu li {
+    list-style: none;
+    margin: 10px 20px;
+}
+.menu li a {
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600px;
+    transition: 0.5s;
+
+}
+.menu li a:hover {
+    color: #f1e310;
+
+}
+.navigation input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.navigation span {
+    position: absolute;
+    left: 18px;
+    width: 32px;
+    height: 4px;
+    background-color: #666;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.navigation input:checked ~  span {
+    background-color: #f974a1;
+}
+
+.navigation span:nth-child(2){
+    transform: translateY(10px);
+}
+
+.navigation span:nth-child(3){
+    transform: translateY(25px);
+}
+
+.navigation input:checked ~  span:nth-child(2) {
+    transform: translateY(19px) rotate(55deg);
+}
+
+.navigation input:checked ~  span:nth-child(3) {
+    transform: translateY(19px) rotate(-55deg);
+}
+
+.menu {
+    overflow: hidden;
+    transition: 0.5s;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 0;
+}
+
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+ /* STYLT FOR SECOND PARALLEX SECTION STARTS HERE  */
+
+.sec-paralex {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,#fafaface, #fafafaaf) ,url("images/bulb.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.block-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    /* background-color: red; */
+    height: 300px;
+    /* height: 350px; */
+    /* margin: 30px; */
+}
+
+.block-container .left {
+    background-image: url('images/sunset.png');
+    background-size: cover;
+}
+
+.block-container .center {
+    color: white;
+    font-weight: 600;
+}
+.block-container .center {
+    background-image: url('images/firstMe.jpg');
+    background-size: cover;
+}
+
+.block-container .right {
+    background-image: url('images/door.png');
+    background-size: cover;
+}
+
+.img-container {
+    width: 28%;
+    background-color: white;
+    height: inherit;
+    margin: 0 20px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    /* margin: 30px; */
+}
+
+.img-container:hover .text-container {
+    transform: translateY(-100px);
+}
+
+.img-container:hover .btn-container {
+    transform: translateY(80px);
+}
+
+.text-container {
+    transform: translateY(100px);
+    transition: all 1s;
+}
+
+.text-container h2 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.btn-container {
+    transform: translateY(300px);
+    transition: all 1s;
+}
+.btn-container p {
+    margin: 0 20px;
+}
+
+.btn-container a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-container a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+/* STYLT FOR THIRD PARALLEX SECTION STARTS HERE  */ 
+
+.third-paralex {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/ele.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.body-parent {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .img2-container {
+    width: 30%;
+    height: 350px;
+    margin: 0 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+  /*   padding: 20px; */
+  }
+  
+  .img2-container:hover .text2-container {
+    transform: translate(25px, 7%);
+    opacity: 1;
+  }
+
+  .body-parent .left2 {
+    background-image: url('images/phone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .body-parent .center2 {
+    background-image: url('images/whitecode.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .body-parent .right2 {
+    background-image: url('images/coolcode.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .text2-container {
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    transform: translate(400px, 7%);
+    opacity: 0;
+    transition: all 1s;
+  }
+  .text2-container p {
+      margin-bottom: 50px;
+  }
+  .text2-container a {
+      color: white;
+      background-color: black;
+      padding: 8px 15px;
+      text-decoration: none;
+      transition: all 1s;
+  }
+
+
+/* STYLT FOR FOURTH PARALLEX SECTION STARTS HERE  */
+
+.fourth-paralex {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/head.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+
+.fourth-paralex .form-bg {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fourth-paralex .form-bg .form-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: #f1e310; */
+    width: 60%;
+    height: 60%;
+}
+
+.fourth-paralex .form-bg .form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.fourth-paralex .form-bg .form input {
+    display: block;
+    padding: 8px 0;
+    width: 80%;
+    margin: 30px auto;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    font-size: 14px;
+    border-radius: 0;
+    color: white;
+    transition: all .8s;
+}
+.fourth-paralex .form-bg .form input:focus {
+   border-radius: 30px;
+}
+
+.fourth-paralex .form-bg .form input::placeholder {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.fourth-paralex .form-bg .form button {
+    padding: 12px 40px;
+    margin-top: 20px;
+    background-color: #ff2190;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+.fourth-paralex .form-bg h3 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+/* STYLES FOR MEDIA QUERY'S */
+
+@media only screen and (max-width: 487px){
+    
+    /* MOBILE MENU STYLE */
+    .navigation input:checked ~  .menu {
+        height: 250px;
+        width: 65px;
+    }
+    .navigation input:checked ~  .navigation {
+        height: 150px;
+        width: 50px;
+    }
+    .body-nav {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .navigation {
+        display: block;
+        transition: 0.5s;
+        position: relative;
+        height: 250px;
+    }
+    .menu {
+        display: block;
+    }
+    .menu li {
+        margin: 10px 0 20px;
+    }
+    .navigation input {
+        width: 65px;
+        height: 50px;
+    }
+    .navigation span {
+        position: absolute;
+        top: 10px;
+        left: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 635px){
+
+    /* MOBILE ABOUT STYLE */
+
+    .block-container {
+        width: 90%;
+        display: block;
+        position: absolute;
+        transform: translate(5%, -350px);
+    }
+    .block-container .left,
+    .block-container .center,
+    .block-container .right {
+        width: 90%;
+        height: 300px;
+        margin: 20px;
+    }
+    .sec-paralex {
+        position: relative;
+        height: 1100px;
+    }
+
+
+    /* MOBILE WORK STYLE */
+
+    .body-parent {
+        width: 90%;
+        display: block;
+    }
+    .body-parent .left2,
+    .body-parent .center2,
+    .body-parent .right2 {
+        width: 90%;
+        height: 300px;
+        margin: 20px 40px;
+    }
+    .third-paralex {
+        position: relative;
+        height: 1100px;
+    }
+
+  }
