@@ -422,6 +422,21 @@ body {
     margin-bottom: 30px;
 }
 
+.div-for-footer {
+     height: 55px;
+     width: 100%;
+}
+
+.div-for-footer p {
+    width: 50%;
+    margin: 20px auto;
+    font-weight: 500;
+}
+
+.div-for-footer a {
+    color: black;
+}
+
 
 /* STYLES FOR MEDIA QUERY'S */
 
