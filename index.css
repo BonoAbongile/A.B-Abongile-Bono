@@ -405,18 +405,18 @@ body {
 }
 
 .fourth-paralex .form-bg .form button {
-    padding: 12px 40px;
+    padding: 10px 38px;
     margin-top: 20px;
-    background-color: #ff2190;
     color: white;
+    background-color: rgba(0,0,0,0.0);
+    border: 2px solid #fff;
     font-size: 15px;
     font-weight: 600;
     border-radius: 30px;
     border: none;
 }
 .fourth-paralex .form-bg .form button:hover {
-    background-color: rgba(0,0,0,0.0);
-    border: 2px solid #ff2190;
+    background-color: #ff2190;
 }
 
 .fourth-paralex .form-bg h3 {
