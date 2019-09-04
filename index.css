@@ -389,7 +389,7 @@ body {
     transition: all .8s;
 }
 .fourth-paralex .form-bg .form input:focus {
-   border-radius: 30px;
+   border-radius: 14px;
 }
 
 .fourth-paralex .form-bg .form input:focus::placeholder {
