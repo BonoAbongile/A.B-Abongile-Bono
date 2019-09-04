@@ -388,9 +388,9 @@ body {
     color: white;
     transition: all .8s;
 }
-.fourth-paralex .form-bg .form input:focus {
-   border-radius: 12px;
-}
+/* .fourth-paralex .form-bg .form input:focus {
+   border-radius: 30px;
+} */
 
 .fourth-paralex .form-bg .form input:focus::placeholder {
     transform: translateY(40px);
