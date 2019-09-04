@@ -523,5 +523,10 @@ body {
         position: relative;
         height: 1100px;
     }
+      
+      // MOBILE CONTACT STYLE
+      .div-for-footer {
+          text-align: center;
+      }
 
   }
