@@ -411,7 +411,12 @@ body {
     color: white;
     font-size: 15px;
     font-weight: 600;
+    border-radius: 30px;
     border: none;
+}
+.fourth-paralex .form-bg .form button:hover {
+    background-color: rgba(0,0,0,0.0);
+    border: 2px solid #ff2190;
 }
 
 .fourth-paralex .form-bg h3 {
