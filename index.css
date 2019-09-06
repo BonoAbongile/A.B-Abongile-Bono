@@ -361,7 +361,7 @@ body {
     background-color: rgba(0, 0, 0, 0.637);
     border-radius: 20px;
     position: absolute;
-    top: 37%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
