@@ -346,6 +346,10 @@ body {
     position: relative;
 }
 
+.fourth-paralex .map {
+    margin: 30px 0;
+}
+
 .fourth-paralex .form-bg {
     width: 80%;
     height: 80%;
