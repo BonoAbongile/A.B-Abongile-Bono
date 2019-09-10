@@ -396,6 +396,7 @@ body {
 /*     border-radius: 0; */
     color: white;
     transition: all .8s;
+    outline: none;
 }
 /* .fourth-paralex .form-bg .form input:focus {
    border-radius: 0px;
